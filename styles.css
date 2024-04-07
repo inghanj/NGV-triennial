@@ -1,6 +1,6 @@
 
 body {
-width:40%;
+width:610px;
 margin:auto;
 letter-spacing: 0.25px;
 line-height:25px;
@@ -86,4 +86,15 @@ text-align:center;
 figure {
 margin:20px;
 padding:0px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    width:100%;
+  }
+  
+  .tag {
+      text-align:center;
+    }
 }
